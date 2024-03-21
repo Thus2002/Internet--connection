@@ -5,7 +5,7 @@ let messageOnline = () => {
 };
 let messageOffline = () => {
     message.textContent="You are Offline";
-    message.style.cssText="background-color:orange; color:dark-orange";
+    message.style.cssText="background-color:red; color:dark-red";
 };
 if(window.navigator.onLine){
     messageOnline();
